@@ -1,0 +1,8 @@
+---
+# tasks for the playbook
+   - hosts: all
+     #connection: local
+     name: Playbook to run roles
+     become: true
+     roles: 
+           - setuprole

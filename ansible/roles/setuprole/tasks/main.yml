@@ -1,0 +1,5 @@
+---
+# tasks file for setuprole
+
+   - name: Install setup.sh script
+     script: setup.sh
